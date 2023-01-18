@@ -13,7 +13,7 @@
   "type": "commonjs",
   "dependencies": {
     "isaac-typescript-definitions": "^11.0.0",
-    "isaacscript": "^3.4.2",
+    "isaacscript": "^3.4.3",
     "isaacscript-common": "^20.11.1",
     "isaacscript-lint": "^4.6.2",
     "isaacscript-spell": "^1.2.28",
