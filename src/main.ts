@@ -16,3 +16,5 @@ function postGameStarted(isContinued: boolean) {
     LevelStage.BASEMENT_1,
   );
 }
+
+Isaac.DebugString("Initiated mod: isaacscript-mod-example");
