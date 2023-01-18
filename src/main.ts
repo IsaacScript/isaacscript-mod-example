@@ -1,21 +1,14 @@
 import { ModCallback } from "isaac-typescript-definitions";
+import { mod } from "./mod";
 
-const MOD_NAME = "isaacscript-mod-example";
+const TOP_LEFT_CORNER_GRID_INDEX = 32;
 
-main();
+mod.AddCallback(ModCallback.POST_GAME_STARTED, postGameStarted);
 
-function main() {
-  // Instantiate a new mod object, which grants the ability to add callback functions that
-  // correspond to in-game events.
-  const mod = RegisterMod(MOD_NAME, 1);
+function postGameStarted(isContinued: boolean) {
+  if (isContinued) {
+    return;
+  }
 
-  // Register a callback function that corresponds to when a new run is started.
-  mod.AddCallback(ModCallback.POST_GAME_STARTED, postGameStarted);
-
-  // Print a message to the "log.txt" file.
-  Isaac.DebugString(`${MOD_NAME} initialized.`);
-}
-
-function postGameStarted() {
-  Isaac.DebugString("Callback fired: POST_GAME_STARTED");
+  mod.spawnCustomTrapdoor(TOP_LEFT_CORNER_GRID_INDEX, "Slaughterhouse");
 }

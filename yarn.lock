@@ -2196,7 +2196,7 @@ glob@^7.1.3, glob@^7.1.4:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-glob@^8.0.1, glob@^8.0.3:
+glob@^8.0.1, glob@^8.1.0:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/glob/-/glob-8.1.0.tgz#d388f656593ef708ee3e34640fdfb99a9fd1c33e"
   integrity sha512-r8hpEjiQEYlF2QU0df3dS+nxxSIreXQS1qRhMJM0Q5NDdR386C7jb7Hwwod8Fgiuex+k0GFjgft18yvxm5XoCQ==
@@ -2741,15 +2741,15 @@ isaac-typescript-definitions@^11.0.0:
   dependencies:
     lua-types "^2.13.1"
 
-isaacscript-common-ts@^1.6.0:
+isaacscript-common-ts@^1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/isaacscript-common-ts/-/isaacscript-common-ts-1.7.0.tgz#78ad61efdb80000c39f60f39fad6cdf0e07b65f2"
   integrity sha512-tjrmPHnRUu7EKIuabIpi8BwGKXm52oNhdhwTC+K/bkPdrCLemptWfRv+8sAYqb2htQWFPuTqdlttpCLcaiwFMA==
 
-isaacscript-common@^20.11.0:
-  version "20.11.0"
-  resolved "https://registry.yarnpkg.com/isaacscript-common/-/isaacscript-common-20.11.0.tgz#1d09f9c9ff5e1d1fe730c5890db643aaa7b0af22"
-  integrity sha512-RBfElRPPZQ7K4Cs7m0dLD3jWdhM/BgwiNUfiFgEUijbMWaIAHpBgNF8jlVCLUIyS1QYx72USADrZ+PI/hnTaVg==
+isaacscript-common@^20.11.1:
+  version "20.11.1"
+  resolved "https://registry.yarnpkg.com/isaacscript-common/-/isaacscript-common-20.11.1.tgz#9a2aacddd6f44da36310cfecfa7c478884ae9534"
+  integrity sha512-toNkTMADDj/c0/lHWJPaNLYchCJaicXmiqKwk5CphRq/hr3PyRg0dukndYdp3FCfD3HT0p2sJGLmkAPSnoNVAg==
   dependencies:
     isaac-typescript-definitions "^11.0.0"
 
@@ -2790,10 +2790,10 @@ isaacscript-tsconfig@^3.0.2:
   dependencies:
     "@tsconfig/strictest" "^1.0.2"
 
-isaacscript@^3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/isaacscript/-/isaacscript-3.4.1.tgz#9ee7bd7fcf33b499668871fcb66b5dee5b43cf35"
-  integrity sha512-k9D/vScdjWFVbOUspvxgC3MubMBnSDx9CMSEX3+0n/lQnRmL2zg0x5zTJ+bHRPnc197Ztasx348lpmWinjM3Bw==
+isaacscript@^3.4.2:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/isaacscript/-/isaacscript-3.4.2.tgz#f9748a4927830946c14406f084a70ebe6f1342e1"
+  integrity sha512-qy0aZZa11GwotQyqOjpLzdGgZd/rwz4doBLmCMOLxU2rG2I4+mMnQni99OMz2F8uVZClP6tH/+XBheQUY0BvDg==
   dependencies:
     ajv "^8.12.0"
     chalk "4.1.2"
@@ -2801,8 +2801,8 @@ isaacscript@^3.4.1:
     dotenv "^16.0.3"
     figlet "^1.5.2"
     git-dirty "^1.0.2"
-    glob "^8.0.3"
-    isaacscript-common-ts "^1.6.0"
+    glob "^8.1.0"
+    isaacscript-common-ts "^1.7.0"
     isaacscript-tsconfig "^3.0.2"
     jsonc-parser "^3.2.0"
     moment "^2.29.4"
