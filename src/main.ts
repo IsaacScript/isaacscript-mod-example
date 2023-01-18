@@ -1,4 +1,4 @@
-import { ModCallback } from "isaac-typescript-definitions";
+import { LevelStage, ModCallback } from "isaac-typescript-definitions";
 import { mod } from "./mod";
 
 const TOP_LEFT_CORNER_GRID_INDEX = 32;
@@ -10,5 +10,9 @@ function postGameStarted(isContinued: boolean) {
     return;
   }
 
-  mod.spawnCustomTrapdoor(TOP_LEFT_CORNER_GRID_INDEX, "Slaughterhouse");
+  mod.spawnCustomTrapdoor(
+    TOP_LEFT_CORNER_GRID_INDEX,
+    "Slaughterhouse",
+    LevelStage.BASEMENT_1,
+  );
 }
