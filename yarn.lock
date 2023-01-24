@@ -2678,15 +2678,22 @@ isaac-typescript-definitions@^11.0.1:
   dependencies:
     lua-types "^2.13.1"
 
+isaac-typescript-definitions@^11.0.2:
+  version "11.0.2"
+  resolved "https://registry.yarnpkg.com/isaac-typescript-definitions/-/isaac-typescript-definitions-11.0.2.tgz#3d17e6249af52ea8141a4a5f668f050961747f7a"
+  integrity sha512-JFezpXB6u61ATyb/bOMNcNk6Ui0xAESsnS6wYlQQJCu+UKG/0VJ9OPd8U9/zGyfBUW+ZV1EIThyhvyv18VbBOQ==
+  dependencies:
+    lua-types "^2.13.1"
+
 isaacscript-common-ts@^1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/isaacscript-common-ts/-/isaacscript-common-ts-1.7.0.tgz#78ad61efdb80000c39f60f39fad6cdf0e07b65f2"
   integrity sha512-tjrmPHnRUu7EKIuabIpi8BwGKXm52oNhdhwTC+K/bkPdrCLemptWfRv+8sAYqb2htQWFPuTqdlttpCLcaiwFMA==
 
-isaacscript-common@^20.13.1:
-  version "20.13.1"
-  resolved "https://registry.yarnpkg.com/isaacscript-common/-/isaacscript-common-20.13.1.tgz#80d9c33610e26dff25d92a7a5df2071409aa0072"
-  integrity sha512-v6lBO1yrCvxdrLC3cycYS0pHWYlUgm06m/7uhB9ID+WZ6fe7cEEBQw4AgY2R43YSrWWHy8sUPwQYodaGftXUpg==
+isaacscript-common@^20.14.1:
+  version "20.14.1"
+  resolved "https://registry.yarnpkg.com/isaacscript-common/-/isaacscript-common-20.14.1.tgz#409d90c48dfd702e0c21a54e034328bee361bd55"
+  integrity sha512-DG3Xi/sInhldZonurlWRrgXKPjBmUAm8IiV88gy8OlIxzToa5VFLPlloGleZirDZy08tFc/HReNPB/U8/hOKFw==
   dependencies:
     isaac-typescript-definitions "^11.0.1"
 
@@ -2727,10 +2734,10 @@ isaacscript-tsconfig@^3.0.2:
   dependencies:
     "@tsconfig/strictest" "^1.0.2"
 
-isaacscript@^3.4.6:
-  version "3.4.6"
-  resolved "https://registry.yarnpkg.com/isaacscript/-/isaacscript-3.4.6.tgz#8857b848d325ff14eaf32e91e7db567347f740a3"
-  integrity sha512-hpB0pMNqSbnrvehuYlmSjY+1N8Fqq46HNWKkIOhVIcBbQ0oNnz+rwqvQM6SMfWNL73OrpX/pVSK5+TyKdH/XkA==
+isaacscript@^3.4.7:
+  version "3.4.7"
+  resolved "https://registry.yarnpkg.com/isaacscript/-/isaacscript-3.4.7.tgz#5254a36f8a44033d924f5fe612b60948a89654b3"
+  integrity sha512-CIpFEKrYE2+fR/NvKIOariAaRyJ1n7KpDx8OxlI6SJHhewCOMxNa/gTr02u/quZf/AreY1wYK/ZLW1zzevW1LQ==
   dependencies:
     ajv "^8.12.0"
     chalk "4.1.2"
