@@ -47,6 +47,12 @@
         "name": "Slaughterhouse",
         "xmlPath": "./customStages/slaughterhouse.xml",
         "roomVariantPrefix": 100,
+        "backdropPNGPaths": {
+          "nFloors": ["./mod/resources/gfx/backdrop/security/nfloor.png"],
+          "lFloors": ["./mod/resources/gfx/backdrop/security/lfloor.png"],
+          "corners": ["./mod/resources/gfx/backdrop/security/corner.png"],
+          "walls": ["./mod/resources/gfx/backdrop/security/wall.png"],
+        },
       },
     ],
   },
