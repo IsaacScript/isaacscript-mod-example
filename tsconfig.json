@@ -47,6 +47,7 @@
           "corners": ["./mod/resources/gfx/backdrop/security/corner.png"],
           "walls": ["./mod/resources/gfx/backdrop/security/wall.png"],
         },
+        "music": "Tetris",
       },
     ],
   },

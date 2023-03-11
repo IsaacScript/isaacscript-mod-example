@@ -1,0 +1,3 @@
+<music root="music/">
+  <track loop="true" path="tetris.ogg" name="Tetris" />
+</music>
