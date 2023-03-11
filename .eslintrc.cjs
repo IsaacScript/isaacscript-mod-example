@@ -1,11 +1,16 @@
 // This is the configuration file for ESLint, the TypeScript linter:
-// https://eslint.org/docs/latest/user-guide/configuring
+// https://eslint.org/docs/latest/use/configure/
+
+/** @type {import("eslint").Linter.Config} */
 module.exports = {
   extends: [
     // The linter base is the IsaacScript mod config:
     // https://github.com/IsaacScript/isaacscript/blob/main/packages/eslint-config-isaacscript/mod.js
     "eslint-config-isaacscript/mod",
   ],
+
+  // The ".prettierrc.cjs" file is ignored by default, so we have to un-ignore it.
+  ignorePatterns: ["!.prettierrc.cjs"],
 
   parserOptions: {
     // ESLint needs to know about the project's TypeScript settings in order for TypeScript-specific
