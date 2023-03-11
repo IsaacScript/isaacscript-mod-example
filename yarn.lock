@@ -2706,10 +2706,10 @@ isaacscript-common-ts@^10.0.0:
   resolved "https://registry.yarnpkg.com/isaacscript-common-ts/-/isaacscript-common-ts-10.0.0.tgz#f1037ad8856ef37860964b2987b913aa2e289280"
   integrity sha512-lacHMi0+2ovSuMrtz253XjvDX1i4bER5eNbWsRBTOQp56ZTX5aGC9zKg6GyaDULTfwL/K/bD1mVG69qvsAqChQ==
 
-isaacscript-common@^30.4.4:
-  version "30.4.4"
-  resolved "https://registry.yarnpkg.com/isaacscript-common/-/isaacscript-common-30.4.4.tgz#f4164a75ec277dae9d9e3da2d1348e6e3f32bbfc"
-  integrity sha512-gNjwlQFgNtPBQPVrlcUgVKuNguChMtxmRbi1qfO3G2YZ7CKcVRT/IsFJdlTAaP/qm27jfzlYA6VO3kRampTKAQ==
+isaacscript-common@^30.4.5:
+  version "30.4.5"
+  resolved "https://registry.yarnpkg.com/isaacscript-common/-/isaacscript-common-30.4.5.tgz#98476fe8bc9c7154b2edd14a5e925ad9bfbdaa17"
+  integrity sha512-uQMCMr6qkABv9SOIJC2PalMEzHBxSicDzWaUP3neWc02dcvcUbq77bPVPGs3s/3g4TdgM7MTnfTFWRF6ajMilA==
   dependencies:
     isaac-typescript-definitions "^13.0.7"
 
@@ -2756,10 +2756,10 @@ isaacscript-tsconfig@^4.0.0:
   dependencies:
     "@tsconfig/strictest" "^1.0.2"
 
-isaacscript@^3.6.43:
-  version "3.6.43"
-  resolved "https://registry.yarnpkg.com/isaacscript/-/isaacscript-3.6.43.tgz#6299710151e9d93bfcf84903b7a58e151cc386dd"
-  integrity sha512-iTW9dtkzvGRU7ntS+A/HXQaf5h0H2WprFHss8FxH/G1PBEYDuQGSBHfwUzov5n7BLXb2Rz3QHNDwX3bo/djLgQ==
+isaacscript@^3.6.44:
+  version "3.6.44"
+  resolved "https://registry.yarnpkg.com/isaacscript/-/isaacscript-3.6.44.tgz#6fbd11ea6f79bd695e66b074bfd90abe5a3b4a01"
+  integrity sha512-pcV947jnRu2mGulGm7vyo4y4/eZqOzasleplsyW86cTvpbFyjl0i3c3NNhFRw2gPCmtf3Oc5FiR6Cikqvel8+A==
   dependencies:
     ajv "^8.12.0"
     chalk "4.1.2"
@@ -3161,9 +3161,9 @@ minipass@^3.0.0, minipass@^3.1.1, minipass@^3.1.6:
     yallist "^4.0.0"
 
 minipass@^4.0.0, minipass@^4.0.2, minipass@^4.2.4:
-  version "4.2.4"
-  resolved "https://registry.yarnpkg.com/minipass/-/minipass-4.2.4.tgz#7d0d97434b6a19f59c5c3221698b48bbf3b2cd06"
-  integrity sha512-lwycX3cBMTvcejsHITUgYj6Gy6A7Nh4Q6h9NP4sTHY1ccJlC7yKzDmiShEHsJ16Jf1nKGDEaiHxiltsJEvk0nQ==
+  version "4.2.5"
+  resolved "https://registry.yarnpkg.com/minipass/-/minipass-4.2.5.tgz#9e0e5256f1e3513f8c34691dd68549e85b2c8ceb"
+  integrity sha512-+yQl7SX3bIT83Lhb4BVorMAHVuqsskxRdlmO9kTpyukp8vsm2Sn/fUOV9xlnG8/a5JsypJzap21lz/y3FBMJ8Q==
 
 minizlib@^2.1.1, minizlib@^2.1.2:
   version "2.1.2"
