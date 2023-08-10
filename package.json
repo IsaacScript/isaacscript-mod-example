@@ -12,13 +12,13 @@
   "license": "GPL-3.0",
   "type": "commonjs",
   "dependencies": {
-    "isaac-typescript-definitions": "^13.0.16",
-    "isaacscript": "^3.6.50",
-    "isaacscript-common": "^30.12.2",
-    "isaacscript-lint": "^4.16.10",
-    "isaacscript-spell": "^1.2.39",
+    "isaac-typescript-definitions": "^13.0.22",
+    "isaacscript": "^3.6.56",
+    "isaacscript-common": "^30.12.9",
+    "isaacscript-lint": "^5.2.1",
+    "isaacscript-spell": "^1.2.41",
     "isaacscript-tsconfig": "^4.0.0",
     "typescript": "^5.1.6",
-    "typescript-to-lua": "^1.16.2"
+    "typescript-to-lua": "^1.17.0"
   }
 }
