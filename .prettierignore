@@ -5,6 +5,11 @@ dist
 package-lock.json
 yarn.lock
 pnpm-lock.yaml
+bun.lockb
+
+# Minified files
+*.min.js
+*.min.css
 
 # XML files created by Basement Renovator
 mod/content/rooms/**/*.xml

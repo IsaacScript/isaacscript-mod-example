@@ -10,16 +10,22 @@
     "repentance"
   ],
   "license": "GPL-3.0",
-  "type": "commonjs",
+  "type": "module",
+  "scripts": {
+    "build": "tstl",
+    "lint": "tsx ./scripts/lint.ts",
+    "nuke": "isaacscript nuke",
+    "publish": "isaacscript publish",
+    "start": "isaacscript monitor",
+    "update": "isaacscript update"
+  },
   "dependencies": {
-    "isaac-typescript-definitions": "^42.2.0",
-    "isaacscript-common": "^87.5.0"
+    "isaac-typescript-definitions": "42.2.0",
+    "isaacscript-common": "87.5.0"
   },
   "devDependencies": {
-    "isaacscript": "5.2.7",
+    "isaacscript": "5.2.8",
     "isaacscript-lint": "7.2.0",
-    "isaacscript-spell": "1.15.2",
-    "isaacscript-tsconfig": "7.0.1",
     "typescript": "5.8.2",
     "typescript-to-lua": "1.31.4"
   }

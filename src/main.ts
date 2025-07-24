@@ -1,4 +1,4 @@
-import { LevelStage, ModCallback } from "isaac-typescript-definitions";
+import { LevelStage } from "isaac-typescript-definitions";
 import { ModCallbackCustom } from "isaacscript-common";
 import { mod } from "./mod";
 
