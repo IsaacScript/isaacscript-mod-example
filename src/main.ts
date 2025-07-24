@@ -4,11 +4,15 @@ import { mod } from "./mod";
 
 const TOP_LEFT_CORNER_GRID_INDEX = 32;
 
-mod.AddCallbackCustom(
-  ModCallbackCustom.POST_GAME_STARTED_REORDERED,
-  postGameStartedReorderedFalse,
-  false,
-);
+export function main(): void {
+  Isaac.DebugString("Initiated mod: isaacscript-mod-example\n");
+
+  mod.AddCallbackCustom(
+    ModCallbackCustom.POST_GAME_STARTED_REORDERED,
+    postGameStartedReorderedFalse,
+    false,
+  );
+}
 
 function postGameStartedReorderedFalse() {
   mod.spawnCustomTrapdoor(
@@ -17,5 +21,3 @@ function postGameStartedReorderedFalse() {
     LevelStage.BASEMENT_1,
   );
 }
-
-Isaac.DebugString("Initiated mod: isaacscript-mod-example");
