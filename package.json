@@ -24,9 +24,9 @@
     "isaacscript-common": "87.5.0"
   },
   "devDependencies": {
-    "isaacscript": "5.2.8",
+    "isaacscript": "5.2.9",
     "isaacscript-lint": "7.2.0",
-    "typescript": "5.8.2",
+    "typescript": "5.8.3",
     "typescript-to-lua": "1.31.4"
   }
 }
